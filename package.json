@@ -21,9 +21,9 @@
     "type": "git",
     "url": "git://github.com/opentypejs/opentype.js.git"
   },
-  "main": "./dist/opentype.js",
-  "browser": "./dist/opentype.js",
-  "module": "./dist/opentype.module.js",
+  "main": "./dist/opentype.min.js",
+  "browser": "./dist/opentype.min.js",
+  "module": "./dist/opentype.module.min.js",
   "scripts": {
     "build": "npm run b:umd && npm run b:esm",
     "dist": " npm run d:umd && npm run d:esm",
